@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #d5ec06a4;
+  padding: 1rem 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 10rem;
+  height: 5rem;
+}
+
+.cabeçalho {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.cabeçalho p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.subcabeçalho {
+  background-color: #f1f1f1;
+  padding: 0.5rem 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subcabeçalho .container {
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.subcabeçalho p {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+.subcabeçalho nav a {
+  color: #007BFF;
+  text-decoration: none;
+  margin: 0 1.5rem;
+  font-size: 0.9rem;
+}
+
+.subcabeçalho nav a:hover {
+  text-decoration: underline;
+}
+
+
+main {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.imagem-de-perfil img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.informações-de-perfil h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.informações-de-perfil p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.contexto {
+  margin-bottom: 2rem;
+}
+
+.contexto h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.contexto ul {
+  list-style: none;
+}
+
+.contexto li {
+  margin-bottom: 1rem;
+}
+
+.contexto h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.contexto p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.progresso {
+  margin-bottom: 2rem;
+}
+
+.progresso h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.barras-progresso {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Barra-de-progresso label {
+  font-size: 1rem;
+  color: #333;
+  margin-right: 0.5rem;
+}
+
+progresso {
+  width: 100%;
+  height: 1.5rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.baixo {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 2rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
